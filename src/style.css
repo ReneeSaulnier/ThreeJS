@@ -1,0 +1,50 @@
+body{
+    /*The user cannot scroll beyond the page*/
+    overflow: hidden;
+}
+
+.webgl{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* outline for the small blue line some browsers have*/
+    outline: none;
+}
+#name{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+#explore{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+#novaScotiaDescription{
+    position: absolute;
+    z-index: 100;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    background-color: #2D383A;
+    visibility: hidden;
+}
+#calgaryDescription{
+    position: absolute;
+    z-index: 100;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    background-color: #2D383A;
+    visibility: hidden;
+}
